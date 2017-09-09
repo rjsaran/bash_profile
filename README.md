@@ -1,2 +1,1 @@
-# bash_profile
-# gitconfig
+Mac OS X Bash Profile & Git Config Files
