@@ -2,6 +2,7 @@
   co = checkout
   br = branch
   cm = commit
+  cp = cherry-pick
   pullr = pull --rebase
   com = checkout master
   cop = checkout production
@@ -12,9 +13,21 @@
   ada = add .
   dfc = diff --cached
   st = status
+
+[color]
+  grep = auto
+  branch = auto
+  diff = auto
+  status = auto
+  ui = true
+
 [user]
   name = "Ramjeet Saran"    
   email = saran.ramjeet@gmail.com
+
+[github]
+  user = isaacs
+
 [log]
   decorate = true
   abbrevCommit = true
