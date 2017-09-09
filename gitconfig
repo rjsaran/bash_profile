@@ -1,0 +1,19 @@
+[alias]
+        co = checkout
+        br = branch
+        cm = commit
+        pullr = pull --rebase
+        com = checkout master
+        cop = checkout production
+        hardreset = reset --hard HEAD^
+        mm = merge --no-ff master
+        pm = push origin master
+        pp = push origin production
+        ada = add .
+        dfc = diff --cached
+        st = status
+[user]
+        email = saran.ramjeet@gmail.com
+[log]
+        decorate = true
+        abbrevCommit = true
