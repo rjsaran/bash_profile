@@ -16,6 +16,8 @@ alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl'
 
 alias grep='grep -color=auto'
 
+alias reload = 'source ~/.bash_profile'
+
 alias localdb='/usr/local/mysql/bin/mysql -uroot '
 
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
