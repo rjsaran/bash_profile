@@ -41,3 +41,6 @@ alias noed=node
 
 export PATH=$PATH:/usr/local/mysql/bin
 export DYLD_LIBRARY_PATH=/usr/local/mysql/lib
+
+# Include other profile files also
+for file in ~/.profile.d/*; do source $file; done
